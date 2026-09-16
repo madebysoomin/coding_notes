@@ -156,3 +156,30 @@ get rid of the - in list-style: none
 remember a href
 it's refering to that
 text decoration none gets rid of the underline in links
+
+
+#bootstrap
+go to bootstrap web and copy link with the href written on it
+go to components and copy the links there and you can use the stuff bootstrap designed for you
+
+#sass
+make your own functions
+...scss
+$color: red;
+ul{
+    font-size: 14px;
+    color; $color;
+}
+...
+then link the file by
+...html
+<link rel="stylesheet" href="variables.css">
+...
+note: don't write scss write css
+then you need to compile it to css by installing sass in your computer by
+writing in terminal:
+sass variables.scss:variables.css
+after that for making constant changes without having to compile it every single time
+write in terminal:
+sass --watch variables.scss:variables.css
+
