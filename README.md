@@ -2,7 +2,7 @@
 Notes from my journey learning programming and computer science.
 <div align="center">
 
-# 🪻 Soomin's Coding Notes
+# 💜 Soomin's Coding Notes
 
 ### learn · understand · document
 
