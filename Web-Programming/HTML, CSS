@@ -1,0 +1,158 @@
+#1. HTML
+...html
+<!DOCTYPE html>
+<html lang="'en">
+    <head>
+        <title>Link</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            h1{
+                color: blue;
+                text-align: center;
+
+            }
+            table{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            td, th {
+                border: 1px solid black;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body style="color: rgb(113, 26, 184);">
+        <a href="https://google.com">Click Here</a>
+        <h1>This is the biggest heading.</h1>
+        <h6>This is the smallest heading.</h6>
+        An ordered list:
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+        </ol>
+        <img src="꼬꼬.png" alt="꼬꼬" width="150">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ocean</th>
+                    <th>Average Depth</th>
+                    <th>Maximum Depth</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pacific Ocean</td>
+                    <td>4,280 m</td>
+                    <td>10,911 m</td>
+                </tr>
+                <tr>
+                    <td>Atlantic Ocean</td>
+                    <td>3,646 m</td>
+                    <td>8,486 m</td>
+                </tr>
+            </tbody>
+        </table>
+        <form>
+            <input type="text" placeholder="Full Name" name="name">
+            <input type="submit">
+            <div>
+                <input name="name" type="text" placeholder="Name">
+                <input name="password" type="password" placeholder="Password">
+            </div>
+
+            <div>
+                Favorite color?
+                <input name="color" type="radio" value="red"> purple
+                <input name="color" type="radio" value="green"> pink
+                <input name="color" type="radio" value="blue"> black
+                <input name="color" type="radio" value="other"> Other
+            </div>
+
+            <div>
+                <input name="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Afghanistan">
+                    <option value="Albania">
+                    <option value="Algeria">
+                    <option value="South Korea">
+                    <option value="United States">
+                </datalist>
+            </div>
+        </form>
+    </body>
+</html>
+...
+
+#2. CSS
+...css
+.logo img{
+    width: 800px;
+    object-fit: cover;
+}
+...
+choose only the image from the class'logo'
+maintain ratio of the pic but fill the space and if needed cut off parts of it
+
+...css
+.navbar{
+    display: flex;
+    justify-content: space-between;
+...
+split things up using main axis
+for ex)
+logo             menu
+
+before flex:
+logo
+contact
+menu
+
+after flex:
+logo  contact menu
+
+flex makes it horizontal
+
+justify-content = for main axis(=horizontal)
+align-items = for cross axis(=vertical)
+ex)
+without align items center:
+
+logo             about   
+           home           contact
+with align items center:
+
+logo   home   about   contact
+
+...css
+    align-items: center;
+    padding: 0.5px 40px;
+    background-color: #fffffe;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+}
+...
+padding horizontal위아래 vertical양옆 간격
+box-shadow 가로 세로 흐림 투명도
+
+...css
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+...
+home gap40px about gap40px contact gap40px
+get rid of the - in list-style: none
+
+...css
+.navbar a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #50320a;
+    font-weight: 700;
+}
+...
+remember a href
+it's refering to that
+text decoration none gets rid of the underline in links
