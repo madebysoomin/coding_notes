@@ -26,17 +26,16 @@ review them later, and track my learning journey.
 
 <br>
 
-## 💜 My Notes
+## 💜 Notes
 
-### 🌐 Web Programming
-My notes on building and understanding web applications.
+### 🌐 [Web Programming](./Web-Programming/)
+Concepts and notes on web development and web applications.
 
-### 🔐 Cybersecurity
-My notes on security concepts and secure development.
+### 🔐 [Cybersecurity](./Cybersecurity/)
+Security concepts, vulnerabilities, and secure development.
 
-### 🧠 Algorithms
-My notes on algorithms, data structures, and problem solving.
-
+### 🧠 [Algorithms](./Algorithms/)
+Algorithms, data structures, and problem solving.
 <br>
 
 <div align="center">
