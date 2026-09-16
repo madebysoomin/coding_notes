@@ -2,6 +2,7 @@
 
 Notes from what I'm learning about web programming.
 
-## Notes
+Topics will include web fundamentals, frontend and backend development,
+and building web applications.
 
-More notes coming soon 💜
+💜 More notes coming as I learn.
