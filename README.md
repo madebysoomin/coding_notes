@@ -1,5 +1,3 @@
-# coding_notes
-Notes from my journey learning programming and computer science.
 <div align="center">
 
 # 💜 Soomin's Coding Notes
@@ -10,9 +8,9 @@ Notes from my journey learning programming and computer science.
 
 <br>
 
-![Programming](https://img.shields.io/badge/Programming-A998C5?style=for-the-badge&logoColor=white)
-![Computer Science](https://img.shields.io/badge/Computer%20Science-C9BEE0?style=for-the-badge&logoColor=302B38)
+![Web Programming](https://img.shields.io/badge/Web%20Programming-A998C5?style=for-the-badge&logoColor=white)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-75658F?style=for-the-badge&logoColor=white)
+![Algorithms](https://img.shields.io/badge/Algorithms-C9BEE0?style=for-the-badge&logoColor=302B38)
 
 </div>
 
@@ -21,50 +19,28 @@ Notes from my journey learning programming and computer science.
 ## ☁️ About This Repository
 
 This repository is where I document what I learn about
-**programming, computer science, and cybersecurity.**
+**web programming, cybersecurity, and algorithms.**
 
-I write concepts in my own words so I can understand them better,
+I write concepts in my own words to understand them better,
 review them later, and track my learning journey.
 
 <br>
 
-## 🪻 Notes
+## 💜 My Notes
 
-### 💻 Programming
-
-- [C](./C/)
-- [Python](./Python/)
-
-### 🌐 Web Development
-
-- [Web](./Web/)
-
-### 🧠 Computer Science
-
-- [Algorithms](./Algorithms/)
+### 🌐 Web Programming
+My notes on building and understanding web applications.
 
 ### 🔐 Cybersecurity
+My notes on security concepts and secure development.
 
-- [Cybersecurity](./Cybersecurity/)
-
-### 🌱 Developer Tools
-
-- [Git](./Git/)
-
-<br>
-
-## ✏️ How I Take Notes
-
-Each note usually contains:
-
-`What is it?` → `In My Words` → `Syntax` → `Example` → `Things I Got Confused About`
+### 🧠 Algorithms
+My notes on algorithms, data structures, and problem solving.
 
 <br>
 
 <div align="center">
 
 ![Soomin's Notes](https://img.shields.io/badge/SOOMIN'S%20CODING%20NOTES-A998C5?style=for-the-badge&labelColor=EEEAF5)
-
-### 🪻 learn → build → break → understand → build again
 
 </div>
